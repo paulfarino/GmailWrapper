@@ -1,0 +1,20 @@
+{
+  "name": "Gmail",
+  "version": "1.0.0",
+  "description": "A minimal gmail Wrapper",
+  "main": "main.js",
+  "scripts": {
+    "package-mac": "electron-packager . GmailWrapper --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/gmail.icns --prune=true --out=release-builds"
+  },
+  "repository": "https://github.com/paulfarino",
+  "keywords": [
+    "Gmail wrapper",
+    "gmail"
+  ],
+  "author": "Paul Farino",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.6.11",
+    "electron-packager": "^8.1.0"
+  }
+}
